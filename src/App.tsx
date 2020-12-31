@@ -1,24 +1,35 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+
+const developer = {
+  firstName: "Arbelia",
+  lastName: "Arkansas",
+  company: "Martco PLC",
+};
+const dayNumber = 4;
+const tickets = ["Log on", "Do something else", "Debug this code"];
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <h1>Development log: day {dayNumber}</h1>
+      <ul>
+        <li>
+          <b>Developer name: </b>
+          {developer.lastName.toUpperCase() + ", " + developer.firstName}
+        </li>
+        <li>
+          <b>Company: </b>
+          {developer.company}
+        </li>
+      </ul>
+      <hr />
+      <h2>Ticket status</h2>
+      <p>
+        There are currently <b>{tickets.length}</b> tickets left to complete.
+      </p>
+      <p>
+        <b>Your next ticket:</b> {tickets[0]}
+      </p>
     </div>
   );
 }
