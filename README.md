@@ -12,7 +12,7 @@ tags:
   - wip
 ---
 
-# Development Log
+#Component Tree
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a>
 
@@ -66,26 +66,27 @@ The `start` script is configured such that the app will run by default on your l
 
 > ⚠️ For now, you will have to refresh `localhost:3000` when you make changes to see them take effect. _(Instructor note: CRA hot reload / fast refresh seems not to be able to watch code inside `index.tsx`.)_
 
-A good narrative document for this game would explain how `public/index.html` and `src/index.tsx` seem to be interacting to produce the HTML that gets rendered in your browser. A great narrative document would demonstrate this through code snippets and screenshots which show how changes you have made in the code lead to changes in the browser that are consistent with your theory.
+A good narrative document will include some indication of hierarchy between components - how they fit together, in a so-called 'component tree' (like [this simple example](https://www.elegantthemes.com/blog/wp-content/uploads/2018/10/image3.png)).
 
-> ⛏️ You may find it useful to use the **Inspector** in your browser developer tools to explore the rendered HTML elements. (Search online for how to do this if you are unsure.)
+## Exercise 3: Thinking in components
 
-Things you should try to cover include:
+**Success criterion:** a component tree diagram for an app or website of your choice.
 
-- What's the importance of the `document.getElementById` argument? What happens if you change it?
-- When you run the app, why do you see more things than are returned by your React app?
-- What's the role of the `{` in TSX code?
+Read these two articles:
 
-## Exercise 3: Writing your own React component
+1. [https://blog.bitsrc.io/atomic-design-and-ui-components-theory-to-practice-f200db337c24](Atomic Design and UI Components: Theory to Practice)
+2. [https://atomicdesign.bradfrost.com/chapter-2/](Atomic Design Methodology)
 
-> 🎯 **Success criterion:** a custom React component, `AboutMe`, which renders HTML to the browser at `localhost:3000`.
+Then pick an app or website that you like, and see if you can reverse-engineer a component tree diagram from it.
 
-Now it's time to look at `AboutMe`. This is a currently relatively minimal React component.
+## Exercise 4: Check your understanding
 
-Can you populate it with some information about yourself (a short bio, maybe a CV-esque thing) and render the component through your React app?
+> 🎯 **Success criterion:** a conversation with a Faculty member and amended comments.
 
-(It's up to you as to whether you replace other bits of HTML or the other component, `MyFirstReactComponent`; all that's required is that you can see your component's rendered HTML. Don't forget that you'll need to refresh when you make changes!)
+Talk to a member of Faculty about your understanding of the game and of TypeScript.
 
-## Exercise 6: Commentary and reflection
+Amend your notes for any important points that come out of the conversation.
+
+## Exercise 5: Commentary and reflection
 
 **Success criterion:** documented reflections.
