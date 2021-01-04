@@ -8,17 +8,6 @@ const developer = {
 const dayNumber = 4;
 const tickets = ["Log on", "Do something else", "Debug this code"];
 
-function App() {
-  return (
-    <div>
-      <h1>Development log: day {dayNumber}</h1>
-      <DeveloperBio />
-      <hr />
-      <TicketStatus />
-    </div>
-  );
-}
-
 function DeveloperBio() {
   return (
     <ul>
@@ -31,6 +20,25 @@ function DeveloperBio() {
         {developer.company}
       </li>
     </ul>
+  );
+}
+
+function DevelopmentLog() {
+  return (
+    <div>
+      <h1>Development log: day {dayNumber}</h1>
+      <DeveloperBio />
+      <hr />
+      <TicketStatus />
+    </div>
+  );
+}
+
+function NextTicket() {
+  return (
+    <p>
+      <b>Your next ticket:</b> {tickets[0]}
+    </p>
   );
 }
 
@@ -52,12 +60,4 @@ function TicketCount() {
   );
 }
 
-function NextTicket() {
-  return (
-    <p>
-      <b>Your next ticket:</b> {tickets[0]}
-    </p>
-  );
-}
-
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(<DevelopmentLog />, document.getElementById("root"));
