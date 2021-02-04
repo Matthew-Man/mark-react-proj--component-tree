@@ -38,7 +38,7 @@ cd ~/Development/Academy # or wherever you're organising everything
 git clone https://github.com/WeAreAcademy/mark-react-proj--component-tree.git
 ```
 
-Then, change into the new directory and install the files:
+Then, change into the new directory and install the dependencies:
 
 ```bash
 cd mark-react-proj--component-tree
