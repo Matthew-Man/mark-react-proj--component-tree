@@ -25,7 +25,8 @@ Now, we're going to see how we can start working with multiple components and be
 ## Learning Outcomes
 
 - Render a React component from within another
-- Draw out the component tree
+- Draw out the component tree of an app
+- Explore components using Developer Tools
 
 ## Exercise 1: Installing and demoing
 
@@ -68,7 +69,15 @@ The `start` script is configured such that the app will run by default on your l
 
 A good narrative document will include some indication of hierarchy between components - how they fit together, in a so-called 'component tree' (like [this simple example](https://www.elegantthemes.com/blog/wp-content/uploads/2018/10/image3.png)).
 
-## Exercise 3: Thinking in components
+## Exercise 3: React Dev Tools
+
+> 🎯 **Success criterion:** a component tree diagram for this app.
+
+Add the [React Developer Tools](https://chrome.google.com/webstore/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi?hl=en) as an extension in Google Chrome. It can be used via the inspector, read the overview for an intro and then try it out by inspecting this app. 
+
+Notice how the component names relate to those in the source code, and draw a component tree diagram for this app. 
+
+## Exercise 4: Thinking in components
 
 > 🎯 **Success criterion:** a component tree diagram for an app or website of your choice.
 
