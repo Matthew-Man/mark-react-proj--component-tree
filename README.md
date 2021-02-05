@@ -83,8 +83,8 @@ Notice how the component names relate to those in the source code, and draw a co
 
 Read these two articles:
 
-1. [https://blog.bitsrc.io/atomic-design-and-ui-components-theory-to-practice-f200db337c24](Atomic Design and UI Components: Theory to Practice)
-2. [https://atomicdesign.bradfrost.com/chapter-2/](Atomic Design Methodology)
+1. [Atomic Design and UI Components: Theory to Practice](https://blog.bitsrc.io/atomic-design-and-ui-components-theory-to-practice-f200db337c24)
+2. [Atomic Design Methodology](https://atomicdesign.bradfrost.com/chapter-2/)
 
 Then pick an app or website that you like, and see if you can reverse-engineer a component tree diagram from it.
 
